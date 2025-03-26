@@ -14,47 +14,50 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+This project focuses on email classification, leveraging machine learning to filter and categorise emails efficiently. It automates the identification of messages, enhancing email management. The system is designed for accuracy, scalability, and seamless integration with backend services.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
+https://www.loom.com/share/d64cecbb8680436a9b5a34e79def51de 
 🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/1e8974b1-b199-479b-9e24-79459faefc80" />
+<img width="923" alt="image" src="https://github.com/user-attachments/assets/04547818-c6f6-4492-9578-dbe8c61c43d9" />
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/a98c9a29-9c9e-45f9-9187-f51e7fc7e23f" />
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+This project was inspired by the need for efficient automation and AI-powered solutions in hackathon environments. Given our experience in Python development, DevOps, and automation, we wanted to build a scalable system that streamlines complex tasks like data validation, backend processing, and deployment automation.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+This project is an AI-powered email classification system that categorises incoming emails based on their content. It uses machine learning to automate sorting, improve organisation, and enhance productivity.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Components & Technologies: Email Processing: IMAP/SMTP, email-parser OCR: Tesseract, AWS Textract, OpenCV NLP & AI Models: Gemini, spaCy Database:Microsoft Excel Backend API: FastAPI, Flask Frontend : Streamlit
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Some challenges faced during the development of this email classification system include:
+Data Quality & Labelling – Ensuring a well-labelled dataset with diverse email samples for accurate classification.
+Handling Imbalanced Data – Addressing the issue of spam emails being significantly fewer or more than normal emails, which affects model performance.
+Scalability – Optimising the pipeline to handle large volumes of emails efficiently without performance degradation.
+Real-time Processing – Ensuring the classification happens quickly to maintain a seamless user experience.
+Evolving Threats – Keeping the model updated to detect new and sophisticated phishing or spam techniques.
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
+   git clone https://github.com/ewfx/gaied-codebenders
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
+   pip install -r requirements.txt (for Python)
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+   streamlit run frontend.py
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+🔹 Frontend: Streamlit
+🔹 Backend: FastAPI
+🔹 Database: Microsoft Excel
+🔹 Other: Tesseract/email parser/spacy
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+Dhruv Sharma
+Krishna Manoj
+Samyuktha Sana
+Shruthi Sudhakaran
