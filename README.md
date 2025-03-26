@@ -25,6 +25,8 @@ https://www.loom.com/share/d64cecbb8680436a9b5a34e79def51de
 <img width="923" alt="image" src="https://github.com/user-attachments/assets/04547818-c6f6-4492-9578-dbe8c61c43d9" />
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/a98c9a29-9c9e-45f9-9187-f51e7fc7e23f" />
 
+Slide: https://drive.google.com/file/d/1XSGsyQHZC3_rv3aBKnLqkMGwsUSCakjZ/view?usp=drive_link 
+
 ## 💡 Inspiration
 This project was inspired by the need for efficient automation and AI-powered solutions in hackathon environments. Given our experience in Python development, DevOps, and automation, we wanted to build a scalable system that streamlines complex tasks like data validation, backend processing, and deployment automation.
 
